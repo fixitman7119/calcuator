@@ -6,5 +6,17 @@ namespace calcuator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+            int button1 = 1;
+            
+        }
     }
 }
