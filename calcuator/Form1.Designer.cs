@@ -39,7 +39,7 @@
             button8 = new Button();
             button9 = new Button();
             button10 = new Button();
-            button11 = new Button();
+            btn_1_click = new Button();
             button12 = new Button();
             button13 = new Button();
             button14 = new Button();
@@ -59,7 +59,6 @@
             button1.TabIndex = 0;
             button1.Text = "C";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -149,15 +148,15 @@
             button10.Text = "-";
             button10.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btn_1_click
             // 
-            button11.Location = new Point(12, 214);
-            button11.Name = "button11";
-            button11.Size = new Size(75, 23);
-            button11.TabIndex = 11;
-            button11.Text = "1";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            btn_1_click.Location = new Point(12, 214);
+            btn_1_click.Name = "btn_1_click";
+            btn_1_click.Size = new Size(75, 23);
+            btn_1_click.TabIndex = 11;
+            btn_1_click.Text = "1";
+            btn_1_click.UseVisualStyleBackColor = true;
+            
             // 
             // button12
             // 
@@ -254,7 +253,7 @@
             Controls.Add(button14);
             Controls.Add(button13);
             Controls.Add(button12);
-            Controls.Add(button11);
+            Controls.Add(btn_1_click);
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -285,7 +284,7 @@
         private Button button8;
         private Button button9;
         private Button button10;
-        private Button button11;
+        private Button btn_1_click;
         private Button button12;
         private Button button13;
         private Button button14;

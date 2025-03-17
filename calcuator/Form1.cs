@@ -7,16 +7,10 @@ namespace calcuator
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private int btn_1_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-
-            int button1 = 1;
-            
+            int btn1 = 1;
+            return btn1;
         }
     }
 }
